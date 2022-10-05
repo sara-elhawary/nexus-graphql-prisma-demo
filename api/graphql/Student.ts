@@ -10,8 +10,8 @@ export const Student = objectType({
     t.list.nonNull.field("subjects", {
       type: Subject,
       resolve(_root, args, context) {
-        const subjects = await context;
-        return 1;
+        const subjects = await context.
+        
       },
     });
   },
